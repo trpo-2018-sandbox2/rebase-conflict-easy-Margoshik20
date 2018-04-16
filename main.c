@@ -32,12 +32,7 @@ int main()
     
     const int min = min_element(arr, 10);
 
-    printf("Array: ");
-    int i;
-    for (i = 0; i < 10; ++i) {
-        printf("%d ", arr[i]);
-    }
-    printf("\n");
+    print_array(arr, N_ELEMENTS(arr))
 
     printf("Min element: %d\n", min);
 
